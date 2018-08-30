@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\52b6d37e3f353392f85475f63e1fb150\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a4f81a342ac6bace97ad1420eb47fc11ab749a03">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\efcb169bc8f1a3a4ac17a17e8d2cca6f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f209b73a488f358673f39317df394bd7a99c05e">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\c20b38209fa9fb790c240c65d801519e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="668473027f40fa0cdd5b2db78ba02d676ffd3a2b">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\d03c45c90cacc5969517362792d94973\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9a2ea9818b2f556b6663c0e7376bd664ee6c7550">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\6da5a2aee76e9b593fb7dbe8435228b4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5c66801c7ac6def4ffef7859925b12ce7940438e">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\12d8deef9ea0d632ff1c2451cf7aacb8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f8ad4859633b630f1002a7d34a9ef25e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\21fd6b22825fd2e8847d88ce5c79fa68\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="858c1e21a2570a2416153aecab70d27a11965e79">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a03b927df4dba20e4d651c0b9979e7a1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\33c23c4f280c47afac7d2681f0c672cc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7e3ff2cb093a99c8dc1ff3d50c176019fa5d7c1">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\efd8e637e4319e0649a1baf38783fda9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe6c8fbfeeb1454c3eb605c9b66662991681fd55">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\426b3d09d144a0978918ce8dbd3cd0e7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3d46095629eedbd5b79b4d129428fc499473a73b">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\149bc645d4fa348fadbe10587bad2f2f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="705378853cb9f264315d7a0a8edb6743d72efe9b">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\bddc0f95b880ae58eaf010f0b511ee1a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\0e35f6510b8d806f3ea4ef97909e2419\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\7fef7a34dd390cf6168419d7bcb4fb57\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="755c70a5a4e439030f67311dbafaa67b111377a6">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junk\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.0\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="F:\androif\new\shohay\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+
+</items>
