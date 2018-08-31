@@ -42,8 +42,4 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-void test(){
 
-    int v;
-
-}
