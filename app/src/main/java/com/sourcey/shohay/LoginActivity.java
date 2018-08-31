@@ -31,10 +31,13 @@ public class LoginActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         
         _loginButton.setOnClickListener(new View.OnClickListener() {
-
             @Override
-            public void onClick(View v) {
-                login();
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intent);
+                finish();
+
+                //login()
             }
         });
 
@@ -50,6 +53,8 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+
 
     public void login() {
         Log.d(TAG, "Login");
@@ -91,6 +96,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 // TODO: Implement successful signup logic here
                 // By default we just finish the Activity and log them in automatically
+
                 this.finish();
             }
         }
