@@ -8,4 +8,9 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_service_bar">ServiceBarActivity</string>
+    <string name="title_home">Mr. Napit</string>
+    <string name="title_dashboard">Dhupi</string>
+    <string name="title_notifications">Moylaman</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

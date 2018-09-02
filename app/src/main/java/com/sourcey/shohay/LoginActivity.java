@@ -34,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), ServiceBarActivity.class);
                 startActivity(intent);
                 finish();
 
