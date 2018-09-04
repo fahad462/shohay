@@ -1,12 +1,9 @@
 package com.sourcey.shohay;
 
-import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -19,7 +16,7 @@ import android.view.Window;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-
+    FragmentTransaction fragmentTransaction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +43,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.add(R.id.main_container, new ProfileFragment());
+        fragmentTransaction.commit();
     }
 
     @Override
@@ -88,20 +89,42 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_profile) {
+            fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.main_container, new ProfileFragment());
+            fragmentTransaction.commit();
+            getSupportActionBar().setTitle("PROFILE");
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_services) {
+            fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.main_container, new ServicesFragment());
+            fragmentTransaction.commit();
+            getSupportActionBar().setTitle("SERVICES");
 
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_history) {
+            fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.main_container, new HistoryFragment());
+            fragmentTransaction.commit();
+            getSupportActionBar().setTitle("HISTORY");
+        } else if (id == R.id.nav_payment) {
+            fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.main_container, new PaymentFragment());
+            fragmentTransaction.commit();
+            getSupportActionBar().setTitle("PAYMENT");
+        } else if (id == R.id.nav_map) {
 
         } else if (id == R.id.nav_logout){
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
             finish();
+        } else if (id == R.id.nav_notifications) {
+            fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.main_container, new NotificationsFragment());
+            fragmentTransaction.commit();
+            getSupportActionBar().setTitle("Notifications");
+
+        } else if (id == R.id.nav_settings) {
+
         }
 
         //TODO: SET UP NAVIGATION FOR ALL THE OPTIONS
