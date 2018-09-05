@@ -9,14 +9,19 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     FragmentTransaction fragmentTransaction;
+    TextView name, email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +40,7 @@ public class MainActivity extends AppCompatActivity
 //            }
 //        });
 
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -44,9 +50,38 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+//        Intent bundle = getIntent();
+//        String value = bundle.getStringExtra("email");
+//        String value2 = bundle.getStringExtra("name");
+//        Log.e("onCreate: ", value2 );
+//        View view = navigationView.inflateHeaderView(R.layout.nav_header_main);
+//        Log.e("onCreate: ", value2 );
+//        name = (TextView) view.findViewById(R.id.name);
+//
+//        email = (TextView) view.findViewById(R.id.email);
+//        name.setText(value);
+//        Log.e("onCreate: ", value2 );
+//        email.setText(value2);
+
+
+
         fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.main_container, new ProfileFragment());
         fragmentTransaction.commit();
+
+        Toast.makeText(this.getApplicationContext(), Profile.email + "lalala", Toast.LENGTH_LONG).show();
+
+//
+//        name = (TextView) findViewById(R.id.name);
+//        email = (TextView) findViewById(R.id.email);
+
+//        char [] lala = bundle.getString("name").toCharArray();
+//        name.setText(lala,0,bundle.getString("name").length()-1);
+//        email.setText(bundle.getString("email"));
+//        email.setText(Profile.email);
+
+
+
     }
 
     @Override
@@ -112,6 +147,10 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.commit();
             getSupportActionBar().setTitle("PAYMENT");
         } else if (id == R.id.nav_map) {
+            fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.main_container, new ProfileFragment());
+            fragmentTransaction.commit();
+            getSupportActionBar().setTitle("Map");
 
         } else if (id == R.id.nav_logout){
             Intent intent = new Intent(this, LoginActivity.class);
